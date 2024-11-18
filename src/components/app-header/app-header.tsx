@@ -1,6 +1,6 @@
 import { FC, useEffect } from 'react';
 import { AppHeaderUI } from '@ui';
-import { useDispatch, useSelector } from '@selectors';
+import { useDispatch, useSelector } from '@store';
 import { checkUserAuth, getIsAuthChecked, getUser } from '@slices';
 
 export const AppHeader: FC = () => {

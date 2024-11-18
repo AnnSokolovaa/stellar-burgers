@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from '@selectors';
+import { useDispatch, useSelector } from '@store';
 import { ProtectedRouteProps } from './type';
 import { checkUserAuth, getIsAuthChecked, getUser } from '@slices';
 import { Preloader } from '../ui/preloader';

@@ -3,7 +3,7 @@ import { Preloader } from '../ui/preloader';
 import { OrderInfoUI } from '../ui/order-info';
 import { TIngredient } from '@utils-types';
 import { useParams } from 'react-router-dom';
-import { useDispatch, useSelector } from '@selectors';
+import { useDispatch, useSelector } from '@store';
 import {
   getIngredients,
   getIngredientsSelector,

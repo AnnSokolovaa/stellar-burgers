@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from '@selectors';
+import { useDispatch, useSelector } from '@store';
 import { getOrders, selectUserOrders } from '@slices';
 import { ProfileOrdersUI } from '@ui-pages';
 import { FC, useEffect } from 'react';

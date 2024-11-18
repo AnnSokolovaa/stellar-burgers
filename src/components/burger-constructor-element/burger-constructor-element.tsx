@@ -1,7 +1,7 @@
 import { FC, memo, useEffect } from 'react';
 import { BurgerConstructorElementUI } from '@ui';
 import { BurgerConstructorElementProps } from './type';
-import { useDispatch } from '@selectors';
+import { useDispatch } from '@store';
 import { Direction, moveIngredient } from '@slices';
 
 export const BurgerConstructorElement: FC<BurgerConstructorElementProps> = memo(

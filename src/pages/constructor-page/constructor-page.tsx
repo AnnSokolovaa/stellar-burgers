@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from '@selectors';
+import { useDispatch, useSelector } from '@store';
 
 import styles from './constructor-page.module.css';
 

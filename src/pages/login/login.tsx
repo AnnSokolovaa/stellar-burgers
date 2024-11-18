@@ -1,6 +1,6 @@
 import { FC, SyntheticEvent, useState } from 'react';
 import { LoginUI } from '@ui-pages';
-import { useDispatch } from '@selectors';
+import { useDispatch } from '@store';
 import { loginUser } from '@slices';
 import { useNavigate } from 'react-router-dom';
 

@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from '@selectors';
+import { useDispatch, useSelector } from '@store';
 import { getFeeds, getIngredients, getOrdersSelector } from '@slices';
 import { Preloader } from '@ui';
 import { FeedUI } from '@ui-pages';

@@ -16,7 +16,7 @@ import { AppHeader, IngredientDetails, Modal, OrderInfo } from '@components';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { ProtectedRoute } from '../router/ProtectedRoute';
 import { useEffect } from 'react';
-import { useDispatch } from '@selectors';
+import { useDispatch } from '@store';
 import { checkUserAuth, getIngredients } from '@slices';
 
 const App = () => {
@@ -113,7 +113,7 @@ const App = () => {
           <Route
             path='/ingredients/:id'
             element={
-              <Modal title='' onClose={onClose}>
+              <Modal title='Детали ингредиента' onClose={onClose}>
                 <IngredientDetails />
               </Modal>
             }
